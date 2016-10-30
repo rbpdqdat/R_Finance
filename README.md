@@ -6,10 +6,10 @@ This simple tool is just the beginning of a more extensive financial assessment 
 
 The user will provide inputs:
 
-1) Term of Loan - How long the payback period will be
-2) Annual Percentage Rate - The interest on the loan amount
-3) Loan Amount - The initial loan amount
-4) (optional) - Additional monthly payments
+1) Term of Loan (months) - How long the payback period will be
+2) Annual Percentage Rate (Floating number; increment 1/8 %)- The interest on the loan amount
+3) Loan Amount (U.S. Dollars) - The initial loan amount
+4) (optional) - Additional monthly payments (in U.S. Dollars)
 The user needs to hit the submit button for the server to calculate and return several items.
 
 The server then returns the following:
