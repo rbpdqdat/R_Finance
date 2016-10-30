@@ -24,15 +24,9 @@ shinyUI(
       submitButton('Submit')
     ),
     mainPanel(
-      h4("User Documentation:"),
-      p("The following application will take User 'Loan Term' information:"),
-      p(" 'Loan term in months' = Length of loan"),
-      p(" 'Interest Rate' = The annual rate of interest on the borrowed money"),
-      p(" 'Loan Amount in $' = The principal/original loan amount"),
-      p(" 'Extral Monthly $' = Any additional money paid each month"),
+      h4("Link to User Documentation:"),
+      a("https://github.com/rbpdqdat/R_Finance/new/master?readme=1"),
       p(""),
-      p("And return Inital Loan Amount, Monthly Payment, Total Payback, and also the number of months and dollars saved if paying additional $ each month."),
-      p("The graph indicates the reduction in principal owed (red), while the green shows the total amount paid through time referring to the payment schedule without addtional monthly $ added to the payment."),
       h3('Looking at Loan Payoff Information'),
       h4('Your Initial Loan Amount'),
       verbatimTextOutput("inputValue"),
