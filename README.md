@@ -35,4 +35,10 @@ The app is expected to undergo additional development.  To determine if extra $ 
 The differences in the strategies will create financial guidance.  Another factor that will be included is the equity that could be tapped into if the asset that is the basis of the loan grows/shrinks in value.
 This could be the basis for financial risk strategies when a series of random walk assigments are used.
 
+# Version and License
 
+v1.1.1 released 11/25/2016 under [MIT](https://choosealicense.com/licenses/mit/) license
+
+# Support and Credits
+
+This simple forecast tool was created to fulfill a section of the Coursera Data Science Certification classes created from instructors at Johns Hopkins University in the Biostatistic department.  
